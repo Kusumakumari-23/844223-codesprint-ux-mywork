@@ -1,0 +1,13 @@
+{
+    "applications":[
+        {
+            "firstName":"kiran",
+            "lastName":"naidu",
+            "streetAddress":"krishna nagar",
+            "city":"kurnool",
+            "package":478,
+            "trainerPreference":"female",
+            "phone":"5682431685"
+        }
+    ]
+}
