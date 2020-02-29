@@ -1,0 +1,43 @@
+<form (ngSubmit)="save()">
+
+    <!-- <div>
+        <label>sNo</label>
+        <input type="number" name="sno" [(ngModel)]="fitness.sNo" />
+    </div> -->
+
+    <div>
+        <label>First Name</label>
+        <input type="text" name="fnm" [(ngModel)]="fitness.firstName" />
+    </div>
+
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="lnm" [(ngModel)]="fitness.lastName" />
+    </div>
+
+    <div>
+        <label>Street Address</label>
+        <input type="text" name="ads" [(ngModel)]="fitness.streetAddress" />
+    </div>
+
+    <div>
+        <label>city</label>
+        <input type="text" name="ct" [(ngModel)]="fitness.city" />
+    </div>
+
+    <div>
+        <label>Package</label>
+        <input type="number" name="pge" [(ngModel)]="fitness.package" />
+    </div>
+
+    <div>
+        <label>Trainer Preference</label>
+        <input type="text" name="tp" [(ngModel)]="fitness.trainerPreference" />
+    </div>
+
+    <div>
+        <label>Mobile</label>
+        <input type="text" name="mb" [(ngModel)]="fitness.phone" />
+    </div>
+    <button (click)="ngSubmit"> SAVE </button>
+</form>
